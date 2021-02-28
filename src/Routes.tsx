@@ -1,22 +1,19 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Search from './Pages/Home/Search';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './Pages/Home';
-import Navbar from './core/components/Navbar';
-
-
+import Search from './Pages/Search';
 const Routes = () => (
-    <BrowserRouter>
-        <Navbar />
-        <Switch>
-            <Route path="/" exact>
-                <Home />
-            </Route>
-            <Route path="/search">
-                <Search />
-            </Route>
-        </Switch>
-    </BrowserRouter>
+        <BrowserRouter>
+            <Switch>
+                <Route path="/" exact>
+                    <Home/>
+                </Route>
+                <Route path="/search">
+                    <Search />
+                </Route>
+            </Switch>
+        </BrowserRouter>
+
 );
 
 export default Routes;

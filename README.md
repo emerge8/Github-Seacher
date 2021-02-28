@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+# Desafio UserGitHub
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Dev-JeanSantos/Desafio-FrontEnd-UserGithub/blob/main/LICENSE) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre o projeto
 
-## Available Scripts
+https://frontendusergithub.netlify.app/
 
-In the project directory, you can run:
+Este Projeto foi um desafio de desenvolvimento FrontEnd e Integração com a API Pública de usuários do GITHUB que busca aplicar os conceitos práticos e téoricos dos contéudos adquiridos no BOOTCAMP Dev-Superior 1.0  organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
 
-### `yarn start`
+A aplicação consiste em uma busca de usuario atraves da API Pública do GitHub, que retorna os dados do usuario como nome, foto, total de seguidores e seguindo, a empresa em que trabalha entre outras informações.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Layout web
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Web 1](https://github.com/Dev-JeanSantos/assets/blob/main/usergithub/home.png)
 
-### `yarn test`
+![Web 2](https://github.com/Dev-JeanSantos/assets/blob/main/usergithub/search.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Web 3](https://github.com/Dev-JeanSantos/assets/blob/main/usergithub/userencontrador.png)
 
-### `yarn build`
+# Tecnologias utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Front end
+- HTML / CSS / JS / TypeScript
+- ReactJS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Implantação em produção
+- Front end web: Netlify
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+# Como executar o projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Front end web
+Pré-requisitos: npm / yarn
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# clonar repositório
+git clone https://github.com/Dev-JeanSantos/Desafio-FrontEnd-UserGithub
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# entrar na pasta do projeto front end web
+cd front-web
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# instalar dependências
+yarn install
 
-## Learn More
+# executar o projeto
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Autor
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Jean Santos
+
+https://www.linkedin.com/in/dev-jeansantos/
